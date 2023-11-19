@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import arrow from "../../assets/icons/keyboard_arrow_down.svg";
 const Accordian = ({ num = 1, title, desc }) => {
   const [toggle, setToggle] = useState(false);
   return (
@@ -29,7 +29,13 @@ const Accordian = ({ num = 1, title, desc }) => {
           {title ||
             "Do I need to have experience on Nova before I take this Course?"}
         </p>
-        <span>></span>
+        <span>
+          <img
+            src={arrow}
+            alt="arrow"
+            className={`duration-300 ease-linear ${toggle ? "rotate-180" : ""}`}
+          />
+        </span>
       </div>
       <div
         className={`duration-300 ease-linear overflow-hidden ml-[9.4rem] ${

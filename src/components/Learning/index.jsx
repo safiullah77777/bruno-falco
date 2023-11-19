@@ -3,6 +3,7 @@ import user from "../../assets/icons/user.svg";
 import screen from "../../assets/icons/screen.svg";
 import terminal from "../../assets/icons/terminal.svg";
 import nova from "../../assets/icons/nova.svg";
+import moon2 from "../../assets/images/moon2.png";
 import rocket from "../../assets/icons/rocket.svg";
 import packages from "../../assets/icons/packages.svg";
 import ListItem from "../ListItem";
@@ -53,7 +54,8 @@ const Learning = () => {
     },
   ];
   return (
-    <div className="w-full middle">
+    <div className="w-full middle relative">
+      <img className="absolute -top-[10rem] left-0 1440:-left-[25rem]" src={moon2} />
       <div className="flex flex-col middle gap-[5.2rem] max-w-[120rem] pt-[12.7rem] pb-[13.4rem]">
         <h2 className="h2">Things you will learn on this course</h2>
         <div className="grid grid-cols-2 gap-[1.752rem]">

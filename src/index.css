@@ -18,7 +18,7 @@ html {
     url(./assets/fonts/satoshi/Satoshi-Variable.woff2) format("woff2");
 }
 body {
-  @apply font-satoshi bg-[#090815];
+  @apply font-satoshi bg-[#090815]  overflow-x-hidden;
 }
 .h3 {
   @apply text-[3rem] font-700 leading-121.5 -tracking-[.9px];
@@ -29,55 +29,58 @@ body {
 .h2 {
   @apply text-[4.8rem] !font-700 leading-121.5 -tracking-[1.452px] text-white;
 }
-.p1{
-  @apply text-white text-[1.8rem] font-500 leading-121.5 -tracking-[.54px]
+.p1 {
+  @apply text-white text-[1.8rem] font-500 leading-121.5 -tracking-[.54px];
 }
 .p {
   @apply text-[2rem] text-white font-500 -tracking-[0.4px];
 }
 .section1 {
   background-image: url(./assets/images/backgrounds/bg1.png);
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% -45rem;
-  z-index: 1111;
+  position: relative;
+  z-index: 1;
 }
-.section2{
-  background-image: url(./assets/images/backgrounds/left1.png) ,url(./assets/images/backgrounds/right1.png);
-  background-size: 30%,30%;
+.section2 {
+  background-image: url(./assets/images/backgrounds/left1.png),
+    url(./assets/images/backgrounds/right1.png);
+  background-size: 30%, 30%;
   background-repeat: no-repeat;
-  background-position: 0% 10rem,100% 10rem;
+  background-position: 0% 13rem, 100% 13rem;
   position: relative;
   top: -13rem;
-  z-index: 3;
+  z-index: 322;
 }
-.section4{
-  background-image: url(./assets/images/backgrounds/left2.png) ,url(./assets/images/backgrounds/right2.png);
-  background-size: 30%,30%;
+.section4 {
+  background-image: url(./assets/images/backgrounds/left2.png),
+    url(./assets/images/backgrounds/right2.png);
+  background-size: 30%, 30%;
   background-repeat: no-repeat;
-  background-position: 0% -30rem,100% -30rem;
+  background-position: 0% -30rem, 100% -30rem;
   position: relative;
   top: -40rem;
   padding-top: 20rem;
   z-index: 2;
 }
-.section3{
+.section3 {
   background-image: url(./assets/images/backgrounds/bg2.png);
-    background-position: 0 -10rem;
-    background-size: contain;
-    position: relative;
-    top: -27rem;
-    z-index: 11;
+  background-position: 0 -10rem;
+  background-size: contain;
+  position: relative;
+  top: -27rem;
+  z-index: 11;
 }
-.section5{
+.section5 {
   background-image: url(./assets/images/backgrounds/bg3.png);
-    background-position: 0 -10rem;
-    background-size: cover;
-    position: relative;
-    /* top: -17rem; */
-    margin-top: -55rem;
-    padding-top: 30rem;
-    z-index: 11;
+  background-position: 0 -40rem;
+  background-size: cover;
+  position: relative;
+  /* top: -17rem; */
+  margin-top: -55rem;
+  padding-top: 30rem;
+  z-index: 11;
 }
 .gradient-border {
   @apply before:rounded-[2rem] before:w-full before:absolute before:left-0 before:bg-sticker-gradient before:p-[1.5rem] relative;
@@ -103,7 +106,7 @@ body {
   transition: all 0.5s;
   width: 100%;
 }
-.bg-gradient{
+.bg-gradient {
   background-image: url(./assets/images/backgrounds/gradient.png);
   background-position: 0;
   background-size: contain;
@@ -115,9 +118,9 @@ body {
   @apply bg-[#fff];
 }
 .scrollbar::-webkit-scrollbar-thumb {
-  @apply bg-gradient2
+  @apply bg-gradient2;
 }
-.launch{
+.launch {
   background-image: url(./assets/images/backgrounds/globe-bg.png);
   background-position: center -17rem;
   background-size: cover;
