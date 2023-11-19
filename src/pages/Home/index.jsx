@@ -7,6 +7,9 @@ import Learning from "../../components/Learning";
 import Testimonial from "../../components/Testimonial";
 import VideoplayerWithList from "../../components/VideoplayerWithList";
 import Launch from "../../components/Launch";
+import Review from "../../components/Review";
+import Accordian from "../../components/Accordian";
+import FAQs from "../../components/FAQs";
 
 function Home() {
   return (
@@ -29,8 +32,10 @@ function Home() {
       </div>
       <div className="flex flex-col gap-[9rem]">
         <div className="section3 w-full pt-[15rem] flex flex-col">
-          <h2 className="h2 !text-white !text-[4.5rem] mx-auto relative top-[10rem]">Full course catalog</h2>
-          <div className="relative top-[20rem] pb-[15rem]">
+          <h2 className="h2 !text-white !text-[4.5rem] mx-auto relative top-[0rem]">
+            Full course catalog
+          </h2>
+          <div className="relative top-[5rem]">
             <VideoplayerWithList />
           </div>
         </div>
@@ -41,6 +46,10 @@ function Home() {
         </div>
       </div>
       <Launch />
+      <div className="section5">
+        <Review />
+        <FAQs />
+      </div>
     </div>
   );
 }

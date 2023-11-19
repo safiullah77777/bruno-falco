@@ -39,26 +39,27 @@ body {
   background-image: url(./assets/images/backgrounds/bg1.png);
   background-size: cover; 
   background-repeat: no-repeat;
-  background-position: 0% -30rem;
-  padding-bottom: 30rem;
-  z-index: 1;
+  background-position: 0% -45rem;
+  z-index: 1111;
 }
 .section2{
   background-image: url(./assets/images/backgrounds/left1.png) ,url(./assets/images/backgrounds/right1.png);
   background-size: 30%,30%;
   background-repeat: no-repeat;
-  background-position: 0% 20rem,100% 20rem;
+  background-position: 0% 10rem,100% 10rem;
   position: relative;
-  top: -25rem;
+  top: -13rem;
+  z-index: 3;
 }
 .section4{
   background-image: url(./assets/images/backgrounds/left2.png) ,url(./assets/images/backgrounds/right2.png);
   background-size: 30%,30%;
   background-repeat: no-repeat;
-  background-position: 0% -20rem,100% -20rem;
+  background-position: 0% -30rem,100% -30rem;
   position: relative;
   top: -40rem;
   padding-top: 20rem;
+  z-index: 2;
 }
 .section3{
   background-image: url(./assets/images/backgrounds/bg2.png);
@@ -66,6 +67,16 @@ body {
     background-size: contain;
     position: relative;
     top: -27rem;
+    z-index: 11;
+}
+.section5{
+  background-image: url(./assets/images/backgrounds/bg3.png);
+    background-position: 0 -10rem;
+    background-size: cover;
+    position: relative;
+    /* top: -17rem; */
+    margin-top: -55rem;
+    padding-top: 30rem;
     z-index: 11;
 }
 .gradient-border {
@@ -108,8 +119,8 @@ body {
 }
 .launch{
   background-image: url(./assets/images/backgrounds/globe-bg.png);
-  background-position: center;
+  background-position: center -17rem;
   background-size: cover;
   position: relative;
-  top: -40rem;
+  top: -20rem;
 }
