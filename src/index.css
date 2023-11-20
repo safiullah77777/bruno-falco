@@ -151,7 +151,7 @@ body {
 .pre-launching {
   background-image: url(./assets/images/backgrounds/bg1.png);
   background-size: cover;
-  background-position: 0% 0rem;
+  background-position: 0% -12rem;
   position: relative;
   z-index: 1;
   padding-bottom: 8.5rem;
