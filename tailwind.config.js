@@ -9,10 +9,14 @@ module.exports = {
     extend: {
       backgroundImage: {
         "sticker-gradient":
-          "linear-gradient(270deg, #00FFC4 9.55%, #56D7FE 56.22%)",
+          "linear-gradient(270deg, #00FFC4 19.55%, #56D7FE 56.22%)",
+        "sticker-gradient1":
+          "linear-gradient(270deg, transparent 10%, #00FFC4 19.55%, #56D7FE 86.22%, transparent 93%)",
         gradient2: "linear-gradient(135deg, #00FFC4 0%, #56D7FE 100%)",
         "gradient-black":
           "linear-gradient(180deg, rgba(9, 8, 21, 0.00) 0%, #090815 100%)",
+        gradient1:
+          "linear-gradient(90deg, rgba(1, 10, 12, 0.00) 0%, #011E24 46.88%, rgba(1, 10, 11, 0.00) 100%)",
       },
       fontFamily: {
         satoshi: ["satoshi"],

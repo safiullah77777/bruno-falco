@@ -34,7 +34,7 @@ const Features = () => {
     },
   ];
   return (
-    <div className="w-full middle">
+    <section className="w-full middle">
       <div className="flex flex-col gap-[6.886rem] max-w-[120rem] w-full pb-[10rem] border-b-[1px] border-[#fff]/[.2]">
         <div className="flex flex-col gap-[2.691rem] middle mx-auto">
           <h2 className="h2 max-w-[65rem] text-center">
@@ -51,7 +51,7 @@ const Features = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -17,7 +17,7 @@ const Banner = () => {
     },
   ];
   return (
-    <div className="w-full px-[2rem] middle pb-[20.2rem]">
+    <section className="w-full px-[2rem] middle pb-[20.2rem]">
       <div className="max-w-[123.9rem] w-full flex gap-[5.152rem] pt-[6.7rem]">
         <div className="flex max-w-[56.8rem] w-full flex-col">
           <h1 className="text-[5.2rem] font-700 leading-121.5 -tracking-[1.56px] text-white">
@@ -30,11 +30,11 @@ const Banner = () => {
             <InputWithButton />
           </div>
         </div>
-        <div className="flex-1 bg-[#272E44] h-full aspect-[4/3] rounded-[1.25rem]">
+        <div className="flex-1 bg-[#272E44] rounded-[1.25rem]">
           .
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

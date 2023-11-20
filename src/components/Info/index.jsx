@@ -4,8 +4,8 @@ import man from '../../assets/images/man.png'
 import moon from '../../assets/images/moon1.png'
 const Info = () => {
   return (
-    <div className="w-full middle pt-[6rem] pb-[12rem] relative">
-      <img src={moon} alt="" className="absolute -right-[2rem] -top-[15rem] 1440:!-right-[8rem]" srcset="" />
+    <section className="w-full middle pt-[6rem] pb-[12rem] relative">
+      <img src={moon} alt="" className="absolute -right-[2rem] -top-[15rem] 1440:!-right-[8rem] z-[12]" srcset="" />
       <div className="flex flex-col gap-[2.5rem] max-w-[120rem] w-full border-[#fff]/[.2]">
         <div className="">
           <img src={commas} alt="quote icon" />
@@ -22,7 +22,7 @@ const Info = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

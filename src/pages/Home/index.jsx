@@ -16,11 +16,6 @@ import Footer from "../../components/Footer";
 function Home() {
   return (
     <div className="relative min-h-[100vh]">
-      {/* <div className="absolute top-0 left-0 w-full">
-        <div className="w-full">
-          <img src={bg1} alt="bg1" className="w-full" />
-        </div>
-      </div> */}
       <div className="flex flex-col middle w-full z-[1] section1">
         <Sticker />
         <Header />
@@ -34,8 +29,8 @@ function Home() {
       </div>
       <div className="flex flex-col gap-[9rem]">
         <div className="section3 w-full pt-[25rem] flex flex-col">
-          <img src={moon4} className="absolute top-[35rem] left-0" />
-          <img src={moon3} className="absolute top-[10rem] right-0" />
+          <img src={moon4} className="absolute top-[35rem] left-0 z-[21]" />
+          <img src={moon3} className="absolute top-[10rem] right-0 z-[21]" />
           <h2 className="h2 !text-white !text-[4.5rem] mx-auto relative top-[0rem]">
             Full course catalog
           </h2>
@@ -53,7 +48,7 @@ function Home() {
       <div className="section5 pb-[9rem]">
         <Review />
         <FAQs />
-      <Footer />
+        <Footer />
       </div>
     </div>
   );

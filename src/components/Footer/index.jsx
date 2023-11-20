@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
-const Footer = () => {
+const Footer = ({ hasLast }) => {
   return (
     <div className="w-full justify-between flex mx-auto max-w-[125.3rem] items-center">
       <div className="">
@@ -12,21 +12,23 @@ const Footer = () => {
             Contact
           </a>
           <a href="" className="p">
-          <span className="text-white px-2"> | </span>
+            <span className="text-white px-2"> | </span>
             Privacy and Cookie Policy
           </a>
           <a href="" className="p">
-          <span className="text-white px-2"> | </span>
+            <span className="text-white px-2"> | </span>
             Terms of Usage
           </a>
           <a href="" className="p">
-          <span className="text-white px-2"> | </span>
+            <span className="text-white px-2"> | </span>
             Twitter
           </a>
         </div>
-        <p className="p text-white">
-          © Mastering Nova - All rights reserved - 2023
-        </p>
+        {hasLast !== false && (
+          <p className="p text-white">
+            © Mastering Nova - All rights reserved - 2023
+          </p>
+        )}
       </div>
     </div>
   );

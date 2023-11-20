@@ -19,7 +19,7 @@ const VideoplayerWithList = ({ isReverse }) => {
       <div className={`w-full flex flex-col gap-[1.637rem] max-w-[121.6rem]`}>
         <div className="flex gap-[2rem] middle mr-auto">
           <h3 className="h !text-white">Nova Fundamentals</h3>
-          <span className="text-[#3C366B] uppercase font-700 leading-121.5 -tracking-[1.68px] py-[.5rem] rounded-full bg-gradient2 px-[1.5rem]">
+          <span className="text-[#3C366B] uppercase font-700 leading-121.5 tracking-[1.68px] py-[.5rem] rounded-full bg-gradient2 px-[1.5rem]">
             14 videos
           </span>
         </div>
