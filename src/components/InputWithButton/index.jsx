@@ -5,14 +5,14 @@ const InputWithButton = ({ isChange }) => {
     <div
       className={`relative flex ${
         isChange && "!bg-[#000]/[.4]"
-      } bg-purple-secondary p-[1rem] rounded-[1rem] h-[6.4rem]`}
+      } bg-purple-secondary p-[1rem] pl-[2rem] rounded-[1rem] h-[6.4rem]`}
     >
       <img src={envelope} alt="envelope icon" className="w-[2.4rem]" />
       <div className="flex-1 flex flex-col ml-[.7rem] my-auto">
         <input
           type="text"
           placeholder="Please write your email"
-          className="w-full pr-[20rem]  outline-none border-none bg-transparent h-[2.2rem] text-sky-primary text-[2rem] font-500 -tracking-[.36px]"
+          className="w-full pr-[20rem] outline-none border-none bg-transparent h-[2.2rem] text-sky-primary text-[2rem] font-500 -tracking-[.36px]"
           name=""
           id=""
         />

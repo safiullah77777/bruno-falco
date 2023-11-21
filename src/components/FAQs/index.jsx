@@ -7,11 +7,11 @@ const FAQs = () => {
   return (
     <div className="py-[12.7rem] w-full middle relative">
       <div className="absolute bottom-0 left-0">
-        <img src={moon} className="absolute bottom-[3rem] left-0 z-10" />
-        <img src={scientist} className="relative bottom-[28rem] left-[10rem]" />
+        <img src={moon} className="absolute bottom-[3rem] left-0 z-10 1440:w-[20rem]" />
+        <img src={scientist} className="relative bottom-[28rem] left-[10rem] 1440:bottom-[17rem]" />
       </div>
-      <div className="absolute top-0 right-0">
-        <img src={scientist1} alt="" className="w-[33rem]" />
+      <div className="absolute top-0 right-0 1440:-right-[5rem]">
+        <img src={scientist1} alt="" className="w-[33rem] 1440:w-[20rem]" />
       </div>
       <div className="max-w-[122rem] w-full flex justify-between">
         <div className="flex flex-col max-w-[39rem] gap-[3.2rem]">

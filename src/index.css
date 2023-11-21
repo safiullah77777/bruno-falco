@@ -8,9 +8,21 @@
 html {
   font-size: 62.5%;
 }
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 40%;
+    @apply 450:!font-[40%];
+  }
+}
+@media screen and (max-width: 1023px) {
+  .section2{
+    background-repeat: repeat-y !important;
+  }
+}
 .middle {
   @apply flex items-center justify-center;
 }
+
 @font-face {
   font-family: "satoshi";
   src: url(./assets/fonts/satoshi/Satoshi-Variable.ttf) format("truetype"),
@@ -38,10 +50,11 @@ body {
 .section1 {
   background-image: url(./assets/images/backgrounds/bg1.png);
   background-size: cover;
-  background-position: 0% -85rem;
+  background-position: 0% -35rem;
   position: relative;
   z-index: 1;
   padding-bottom: 20rem;
+  @apply 1440:bg-[0_20%];
 }
 .section2 {
   background-image: url(./assets/images/backgrounds/left1.png),
@@ -53,6 +66,8 @@ body {
   top: 0rem;
   padding-top: 5rem;
   z-index: 322;
+
+ 
 }
 .section4 {
   background-image: url(./assets/images/backgrounds/left2.png),
@@ -155,4 +170,5 @@ body {
   position: relative;
   z-index: 1;
   padding-bottom: 8.5rem;
+  max-height: 100vh;
 }

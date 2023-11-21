@@ -45,7 +45,7 @@ const Features = () => {
             Features creation
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-[2.2rem]">
+        <div className="grid grid-cols-3 gap-[2.2rem] 1023:flex 1023:flex-col">
           {features.map((item) => (
             <FeatureCard {...item} key={item.heading} />
           ))}

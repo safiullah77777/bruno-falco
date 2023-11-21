@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/images/logo.png";
 const Footer = ({ hasLast }) => {
   return (
-    <div className="w-full justify-between flex mx-auto max-w-[125.3rem] items-center">
+    <div className="w-full justify-between flex mx-auto max-w-[125.3rem] items-center 1023:flex-col gap-[3rem]">
       <div className="">
         <img src={logo} alt="logo" />
       </div>

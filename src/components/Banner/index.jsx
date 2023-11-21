@@ -18,9 +18,9 @@ const Banner = () => {
   ];
   return (
     <section className="w-full px-[2rem] middle pb-[20.2rem]">
-      <div className="max-w-[123.9rem] w-full flex gap-[5.152rem] pt-[6.7rem]">
+      <div className="max-w-[123.9rem] w-full flex gap-[5.152rem] pt-[6.7rem] 768:flex-col">
         <div className="flex max-w-[56.8rem] w-full flex-col">
-          <h1 className="text-[5.2rem] font-700 leading-121.5 -tracking-[1.56px] text-white">
+          <h1 className="text-[5.2rem] 1280:!text-[4.4rem] font-700 leading-121.5 -tracking-[1.56px] text-white">
             The ultimate course to demystify Laravel Nova from A to Z
           </h1>
           {list.map((item) => (
@@ -30,7 +30,7 @@ const Banner = () => {
             <InputWithButton />
           </div>
         </div>
-        <div className="flex-1 bg-[#272E44] rounded-[1.25rem]">
+        <div className="flex-1 bg-[#272E44] rounded-[1.25rem] 768:aspect-[3/2] 450:aspect-auto">
           .
         </div>
       </div>

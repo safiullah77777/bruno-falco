@@ -55,10 +55,10 @@ const Learning = () => {
   ];
   return (
     <div className="w-full middle relative">
-      <img className="absolute -top-[16rem] left-0 1440:-left-[25rem] z-[111]" src={moon2} />
+      <img className="absolute -top-[16rem] left-0 1440:-left-[25rem] z-[111] w-[30rem]" src={moon2} />
       <div className="flex flex-col middle gap-[5.2rem] max-w-[120rem] pt-[2.7rem] pb-[13.4rem]">
         <h2 className="h2">Things you will learn on this course</h2>
-        <div className="grid grid-cols-2 gap-[1.752rem]">
+        <div className="grid grid-cols-2 gap-[1.752rem] 768:grid-cols-1">
             {
                 list.map(item=><ListItem key={item.title} isBordered icon={item.img} title={item.title} />)
             }

@@ -4,17 +4,17 @@ import scientist from '../../assets/images/scientist3.png'
 const Launch = () => {
   return (
     <div className="w-full pt-[20rem] launch middle flex-col px-[2rem] gap-[2.3rem] pb-[27rem] relative !-top-[50rem]">
-      <img src={scientist} alt="scientist" className="absolute left-0 top-[13rem] z-[2331]" />
-      <h2 className="-tracking-[1.95px]  font-700 text-white !text-[6.5rem]">
+      <img src={scientist} alt="scientist" className="absolute left-0 top-[13rem] z-[2331] 1440:w-[25rem] 1440:-left-[10rem] 450:!-left-0 450:!w-[15rem]" />
+      <h2 className="-tracking-[1.95px] 450:!text-[42px] 450:pt-[10rem] !text-center font-700 text-white !text-[6.5rem]">
         Launching in{" "}
         <span className="bg-gradient2 bg-clip-text text-transparent">
           30th September
         </span>
       </h2>
-      <p className="p text-white">
+      <p className="p text-white 450:!text-[18px] text-center">
         you'll have 30% discount if you early subscribe for the launch
       </p>
-      <div className="mt-[2.2]">
+      <div className="mt-[2.2] 450:w-full">
         <InputWithButton isChange />
       </div>
     </div>

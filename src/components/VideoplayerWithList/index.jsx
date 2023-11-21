@@ -24,7 +24,7 @@ const VideoplayerWithList = ({ isReverse }) => {
           </span>
         </div>
         <div
-          className={`flex w-full gap-[8rem] ${
+          className={`flex w-full 768:flex-col 768:items-center gap-[8rem] ${
             isReverse && "flex-row-reverse"
           }`}
         >
@@ -34,7 +34,7 @@ const VideoplayerWithList = ({ isReverse }) => {
               <Player />
             ))}
           </div>
-          <div className="flex-1 rounded-[1.26rem] bg-[#272E44] h-[48rem]"></div>
+          <div className="flex-1 rounded-[1.26rem] bg-[#272E44] h-[48rem] 768:w-full 768:aspect-[3/2]"></div>
         </div>
       </div>
     </div>

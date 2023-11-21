@@ -29,23 +29,23 @@ function Home() {
       </div>
       <div className="flex flex-col gap-[9rem]">
         <div className="section3 w-full pt-[25rem] flex flex-col">
-          <img src={moon4} className="absolute top-[35rem] left-0 z-[21]" />
-          <img src={moon3} className="absolute top-[10rem] right-0 z-[21]" />
+          <img src={moon4} className="absolute top-[35rem] left-0 z-[21] 1440:w-[20rem]" />
+          <img src={moon3} className="absolute top-[10rem] right-0 z-[21] 1440:w-[30rem] 1023:top-[12rem]" />
           <h2 className="h2 !text-white !text-[4.5rem] mx-auto relative top-[0rem]">
             Full course catalog
           </h2>
-          <div className="relative top-[5rem]">
+          <div className="relative top-[5rem] px-[2rem] z-[223]">
             <VideoplayerWithList />
           </div>
         </div>
-        <div className="flex flex-col gap-[9rem] section4">
+        <div className="flex flex-col gap-[9rem] section4 px-[2rem] z-[2323] !pt-[30rem]">
           <VideoplayerWithList isReverse />
           <VideoplayerWithList />
           <VideoplayerWithList isReverse />
         </div>
       </div>
       <Launch />
-      <div className="section5 pb-[9rem]">
+      <div className="section5 pb-[9rem] 768:pt-[4rem] px-[2rem]">
         <Review />
         <FAQs />
         <Footer />
