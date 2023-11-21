@@ -30,7 +30,7 @@ function Home() {
       <div className="flex flex-col gap-[9rem]">
         <div className="section3 w-full pt-[25rem] flex flex-col">
           <img src={moon4} className="absolute top-[35rem] left-0 z-[21] 1440:w-[20rem]" />
-          <img src={moon3} className="absolute top-[10rem] right-0 z-[21] 1440:w-[30rem] 1023:top-[12rem]" />
+          <img src={moon3} className="absolute top-[10rem] right-0 z-[21] 1440:w-[30rem] 1023:top-[12rem] 450:z-[0]" />
           <h2 className="h2 !text-white !text-[4.5rem] mx-auto relative top-[0rem]">
             Full course catalog
           </h2>
