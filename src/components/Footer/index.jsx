@@ -6,7 +6,7 @@ const Footer = ({ hasLast }) => {
       <div className="">
         <img src={logo} alt="logo" />
       </div>
-      <div className="flex flex-col gap-[2.1rem]">
+      <div className="flex flex-col gap-[2.1rem] 768:!items-center">
         <div className="flex">
           <a href="" className="p">
             Contact
