@@ -118,7 +118,7 @@ body {
 }
 .launch {
   background-image: url(./assets/images/backgrounds/globe-bg.png);
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
   margin: 5rem 0; 
 
