@@ -20,6 +20,7 @@ module.exports = {
       },
       fontFamily: {
         satoshi: ["satoshi"],
+        titillium: ["titillium"],
       },
       colors: {
         purple: {

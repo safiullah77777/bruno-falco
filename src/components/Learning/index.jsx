@@ -54,7 +54,7 @@ const Learning = () => {
     },
   ];
   return (
-    <div className="w-full middle relative">
+    <section className="px-[2rem] w-full middle relative pt-[6rem]">
       <img className="absolute -top-[16rem] left-0 1440:-left-[25rem] z-[111] w-[30rem]" src={moon2} />
       <div className="flex flex-col middle gap-[5.2rem] max-w-[120rem] pt-[2.7rem] pb-[13.4rem]">
         <h2 className="h2">Things you will learn on this course</h2>
@@ -64,7 +64,7 @@ const Learning = () => {
             }
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

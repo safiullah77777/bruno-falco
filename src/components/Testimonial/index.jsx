@@ -2,7 +2,7 @@ import React from "react";
 import user from "../../assets/images/user.png";
 const Testimonial = () => {
   return (
-    <div className="w-full middle">
+    <section className="px-[2rem] w-full middle">
       <div className="max-w-[160.8rem] w-full gradient-border rounded-[2.5rem]">
         <div className="middle w-full py-[9.6rem] px-[2rem] flex-col gap-[1.6rem]">
           <h2 className="h2 text-center !text-[4.5rem] mb-[1.6rem] max-w-[110.5rem]">
@@ -16,7 +16,7 @@ const Testimonial = () => {
           <p className="p !text-[#7CE0FC]">@christophrumpel - Laravel Core Adventures Creator on a Twitter post</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
