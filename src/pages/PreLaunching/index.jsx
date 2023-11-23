@@ -14,7 +14,7 @@ const PreLaunching = () => {
     };
   }, []);
   return (
-    <div className="pre-launching  px-[2rem] middle pt-[12rem] relative h-[100vh] 1023:max-h-[300vh] 1023:h-auto">
+    <div className="px-[2rem] middle pt-[12rem] relative h-[100vh] 1023:max-h-[300vh] 1023:h-auto !bg-black">
       <img
         src={scientist}
         alt=""

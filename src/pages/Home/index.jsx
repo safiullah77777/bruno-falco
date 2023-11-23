@@ -15,7 +15,7 @@ import Cources from "../../components/Cources";
 
 function Home() {
   return (
-    <main className="relative min-h-[100vh] home pb-[9.4rem]">
+    <main className="relative min-h-[100vh] pb-[9.4rem] !bg-black">
         <Sticker />
         <Header />
         <Banner />
